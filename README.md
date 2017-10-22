@@ -1,6 +1,4 @@
 # git-cheatsheet
-A handful of useful git commands.
-
 > Git features that have proven to be very useful for developers
 
 ## Configurations
