@@ -146,3 +146,6 @@ git log -1
 git log --decorate --graph -5
 ```
 
+## External links
+
+* https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
