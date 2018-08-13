@@ -116,6 +116,12 @@ git branch -d <branch>
 git branch -u <remote>/<branch>
 ```
 
+`# to remove all branches locally that have been already removed from origin`
+
+```bash
+git remote prune origin
+```
+
 ## Reverting to previous states
 
 ### Reverting Files
