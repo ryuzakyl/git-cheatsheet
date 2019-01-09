@@ -84,6 +84,12 @@ git push <remote> --all
 git push <remote> --tags
 ```
 
+`# prunes tracking branches not on the remote`
+
+```bash
+git remote prune origin
+```
+
 ## Working with Branches
 
 `# list all the branches`
