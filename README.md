@@ -158,6 +158,12 @@ git log -1
 git log --decorate --graph -5
 ```
 
+`# showing commits after a specific date`
+
+```bash
+git log --date=local --after="2014-02-12T16:36:00-07:00"
+```
+
 ## External links
 
 * https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
