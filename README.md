@@ -72,6 +72,12 @@ git remote
 git remote rm <remote>
 ```
 
+`# change url if specific remote (<origin>, <upstream>, etc.)`
+
+```bash
+git remote set-url origin https://github.com/username/repo.git
+```
+
 `# to push all your branches.`
 
 ```bash
