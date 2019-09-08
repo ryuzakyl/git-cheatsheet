@@ -134,6 +134,26 @@ git branch -u <remote>/<branch>
 git remote prune origin
 ```
 
+## Stashing
+
+`# stash/save local changes`
+
+```bash
+git stash save "updated the offline file"
+```
+
+`# apply stashed changes (at the top of stack) to working dir`
+
+```bash
+git stash pop
+```
+
+`# list stashed changes on the stack`
+
+```bash
+git stash list
+```
+
 ## Reverting to previous states
 
 ### Reverting Files
