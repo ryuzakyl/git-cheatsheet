@@ -134,6 +134,17 @@ git branch -u <remote>/<branch>
 git remote prune origin
 ```
 
+`# sorting branches by date of last commit`
+
+```bash
+git branch --sort=-committerdate  # DESC
+git branch --sort=committerdate  # ASC
+```
+
+```bash
+git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+```
+
 ## Stashing
 
 `# stash/save local changes`
